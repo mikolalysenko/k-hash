@@ -1,0 +1,45 @@
+{
+  "name": "k-hash",
+  "version": "0.0.0",
+  "description": "Generic k-way indepenent hash function",
+  "main": "hash.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "hash-int": "~0.0.0",
+    "murmurhash-js": "~0.0.1"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/k-hash.git"
+  },
+  "keywords": [
+    "hash",
+    "k-way",
+    "independent",
+    "object",
+    "string",
+    "boolean",
+    "number",
+    "double",
+    "integer",
+    "int",
+    "float",
+    "array",
+    "string"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "d6b6f2ea99eca8c9fe9f0735a41552f4847fe997",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/k-hash/issues"
+  }
+}
