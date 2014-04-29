@@ -1,20 +1,20 @@
 {
   "name": "k-hash",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generic k-way indepenent hash function",
   "main": "hash.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "hash-int": "~0.0.0",
-    "murmurhash-js": "~0.0.1"
+    "hash-int": "^1.0.0",
+    "murmurhash-js": "^1.0.0"
   },
   "devDependencies": {
-    "tape": "~1.0.4"
+    "tape": "^2.12.3"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
